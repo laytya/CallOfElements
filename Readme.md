@@ -1,4 +1,4 @@
-#CallOfElements for vanilla WOW
+# CallOfElements for vanilla WOW
 
 This is an All-In-One Shaman class addon for World Of Warcraft.
 Currently, it features a complete totem module to simplify totem usage
@@ -17,7 +17,7 @@ There is also one predefined set for each class that is automatically
 activated in pvp when you target a hostile player of the corresponding class. 
 
 
-#Basic install instructions
+# Basic install instructions
 
 - Extract the archive
 - Copy "CallOfElements" folder into your "\<WOW FOLDER>/Interface/Addons/" directory
