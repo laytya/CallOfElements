@@ -1676,7 +1676,7 @@ function COE_Totem:SetTimerText()
 
 			Chronos.unscheduleByName(this:GetName() .. "TickTimer");
 			ticktimer:Hide();
-			this.totem.ticks = false;
+			if this.totem then this.totem.ticks = false end;
 			
 			timertext:Hide();
 			overlaytex:Hide();

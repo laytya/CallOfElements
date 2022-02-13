@@ -4,7 +4,7 @@
 	The All-In-One Shaman Addon
 	
 	by Wyverex (2006)
-        by laytya (2018)
+        by laytya (2018-2022)
 
 ]]
 

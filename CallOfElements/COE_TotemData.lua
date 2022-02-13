@@ -596,7 +596,7 @@ function COE:ReorderNewTotems()
 	for k = 1, COE.TotemCount do
 		
 		local totem = COE.TotemData[k];
-		if( COE_DisplayedTotems[totem.SpellName] ~= nil ) then
+		if( COE_DisplayedTotems[totem.SpellName] ~= nil and totem.Element ~= "") then
 			if( COE_DisplayedTotems[totem.SpellName].Order == 0 ) then
 
 				-- this totem has just been added				
@@ -614,6 +614,8 @@ function COE:ReorderNewTotems()
 			else
 				bError = true;
 			end		
+		elseif totem.Element == "" then
+			Chronos.scheduleByName("COERescan", 3, COE_Totem.Rescan);
 		end
 	end
 	
