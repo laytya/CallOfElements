@@ -1,3 +1,6 @@
+v2.8t
+ - Fix for "Totemic Recall" spell in TWOW
+
 v2.8
 
 -some fixes
