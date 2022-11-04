@@ -34,7 +34,7 @@ COESTR_HEALOOM = "Out of mana!";
 
 -- String patterns
 -- ----------------
-COESTR_SCANTOTEMS = "Totem";
+COESTR_SCANTOTEMS = " Totem";
 COESTR_TOTEMTOOLS = "Tools: (.*) Totem";
 COESTR_TOTEMMANA = "(%d*) Mana";
 COESTR_TOTEMRANK = "Rank (%d)";
