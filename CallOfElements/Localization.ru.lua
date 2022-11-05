@@ -53,7 +53,7 @@ COESTR_LESSERWAVE = "Малая волна исцеления";
 COESTR_MINAMOUNT = "(%d*) к";
 COESTR_MAXAMOUNT = "к (%d*)";
 COESTR_TRINKET = "^.*%[Влюбленный водный дух%].*$"; 
-
+COESTR_TOTEMICRECALL = "Зов тотема" -- Need translation
 
 -- Totem Advisor
 -- --------------

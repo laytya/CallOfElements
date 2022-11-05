@@ -25,7 +25,7 @@ COESTR_UDATEDSAVED = "Param\195\168tres sauvegard\195\169s actualis\195\169s pou
 COESTR_FIXEDDISPLAY = "Corrig\195\169 les erreurs dans les param\195\168tres.";
 COESTR_TOTEMSRELOADED = "Totems relanc\195\169";
 COESTR_RESTARTINGSET = "Modifi\195\169 le set actif ";
-COESTR_RESET = "Timers remis à z\195\169ro";
+COESTR_RESET = "Timers remis \195\160 z\195\169ro";
 COESTR_HEALCOOLDOWN = " n'est pas encore pr\195\170t!";
 COESTR_NOHEALING = "Pas besoin de soins";
 COESTR_HEALING = "Soigne %s avec %s (Rang %d)";
@@ -51,7 +51,7 @@ COESTR_LESSERWAVE = "Vague de soins inf\195\169rieurs";
 COESTR_MINAMOUNT = "(%d*).\195\160";
 COESTR_MAXAMOUNT = "\195\160.(%d*)";
 COESTR_TRINKET = "^.*%[Esprit de l\039eau amoureux%].*$"; 
-
+COESTR_TOTEMICRECALL = "Appel tot\195\169mique" -- Need translation
 
 -- Totem Advisor
 -- --------------

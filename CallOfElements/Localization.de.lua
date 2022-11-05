@@ -52,7 +52,7 @@ COESTR_LESSERWAVE = "Geringe Welle der Heilung";
 COESTR_MINAMOUNT = "(%d*) bis";
 COESTR_MAXAMOUNT = "bis (%d*)";
 COESTR_TRINKET = "^.*%[Entz\195\188ckter Wassergeist%].*$"; 
-
+COESTR_TOTEMICRECALL = "Ruf der Totems" -- Need translation
 
 -- Totem Advisor
 -- --------------

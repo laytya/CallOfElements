@@ -50,7 +50,7 @@ COESTR_LESSERWAVE = "Lesser Healing Wave";
 COESTR_MINAMOUNT = "(%d*) to";
 COESTR_MAXAMOUNT = "to (%d*)";
 COESTR_TRINKET = "^.*%[Enamored Water Spirit%].*$"; 
-
+COESTR_TOTEMICRECALL = "Totemic Recall"
 
 -- Totem Advisor
 -- --------------
