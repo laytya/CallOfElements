@@ -994,9 +994,9 @@ function COE_Totem:SetupTimerHooks()
 	end;
 
 	COE_Totem.TimerHooks["CastSpellByName"] = CastSpellByName;
-	CastSpellByName = function( SpellName )
+	CastSpellByName = function( SpellName, onSelf)
 		COE_Totem:HookCastSpellByName( SpellName );
-		COE_Totem.TimerHooks["CastSpellByName"]( SpellName );
+		COE_Totem.TimerHooks["CastSpellByName"]( SpellName, onSelf );
 	end;
 
 	COE_Totem.TimerHooks["UseInventoryItem"] = UseInventoryItem;
