@@ -1,4 +1,4 @@
-CALL OF ELEMENTS v2.8
+CALL OF ELEMENTS v2.8t
 by Wyverex
 supported by laytya @ git
 

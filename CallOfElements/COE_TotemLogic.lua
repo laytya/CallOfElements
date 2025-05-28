@@ -994,9 +994,9 @@ function COE_Totem:SetupTimerHooks()
 	end;
 
 	COE_Totem.TimerHooks["CastSpellByName"] = CastSpellByName;
-	CastSpellByName = function( SpellName )
+	CastSpellByName = function( SpellName, target )
 		COE_Totem:HookCastSpellByName( SpellName );
-		COE_Totem.TimerHooks["CastSpellByName"]( SpellName );
+		COE_Totem.TimerHooks["CastSpellByName"]( SpellName, target );
 	end;
 
 	COE_Totem.TimerHooks["UseInventoryItem"] = UseInventoryItem;
@@ -1102,7 +1102,7 @@ function COE_Totem:HookCastSpell( id, book )
 	if( COE_Config:GetSaved( COEOPT_ENABLETIMERS ) == 0 ) then
 		return;
 	end
-	print(id)
+	
 	-- Check for Totemic Recall
 	if not isTotemicRecall(id) then
 		-- get the associated totem object
